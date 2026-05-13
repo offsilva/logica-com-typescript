@@ -1,2 +1,0 @@
-# logica-com-typescript
-typescript
