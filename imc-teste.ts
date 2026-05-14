@@ -11,15 +11,15 @@ const imc = ( peso / (altura * altura))
 
 if (imc < 18.5) {
  situacao = 'baixo peso'
-} else if (imc < 24.9) {
+} else if (imc < 25) {
  situacao = 'peso normal'
-} else if (imc < 29.9) {
+} else if (imc < 30) {
  situacao = 'excesso de peso'
-} else if (imc < 34.9) {
+} else if (imc < 35) {
  situacao = 'obesidade classe 1'
-} else if (imc < 39.9) {
+} else if (imc < 40) {
  situacao = 'obesidade classe 2'
-} else if (imc >= 40.0) {
+} else if (imc >= 40) {
  situacao = 'obesidade classe 3'
 }
 
